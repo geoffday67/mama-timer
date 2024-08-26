@@ -1,0 +1,23 @@
+#define STEPPER_BLUE_PIN 5
+#define STEPPER_YELLOW_PIN 3
+#define STEPPER_PINK_PIN 4
+#define STEPPER_ORANGE_PIN 2
+
+#define BUZZER_PIN 14
+
+#define SEGMENT_C_PIN 33
+#define SEGMENT_D_PIN 34
+#define SEGMENT_E_PIN 35
+#define SEGMENT_B_PIN 36
+#define SEGMENT_A_PIN 37
+#define SEGMENT_G_PIN 38
+#define SEGMENT_F_PIN 39
+
+#define DIGIT_2_PIN 40
+#define DIGIT_1_PIN 41
+
+#define RUNNING_PIN 26
+
+#define ENCODER_CLK 13
+#define ENCODER_DT 12
+#define ENCODER_BUTTON 11

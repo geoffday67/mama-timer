@@ -1,0 +1,10 @@
+#define WIFI_CONNECTED 0x01
+#define MQTT_SENT 0x02
+#define MAMA_MOVED 0x04
+#define MIN_TIME_ELAPSED 0x08
+#define WIFI_STARTED 0x10
+
+#define WAIT_ALL pdTRUE
+#define WAIT_ONE pdFALSE
+#define CLEAR_ON_EXIT pdTRUE
+#define NO_CLEAR pdFALSE
