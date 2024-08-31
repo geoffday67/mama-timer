@@ -930,13 +930,84 @@
       <holeSpacing value="0.1" unit="in"/>
       <point x="0.6" y="0.4"/>
     </diylc.connectivity.TraceCut>
+    <diylc.connectivity.TraceCut>
+      <name>Cut65</name>
+      <size value="0.08" unit="in"/>
+      <fillColor hex="ffffff"/>
+      <borderColor hex="ff0000"/>
+      <boardColor hex="f8ebb3"/>
+      <cutBetweenHoles>false</cutBetweenHoles>
+      <orientation>VERTICAL</orientation>
+      <holeSpacing value="0.1" unit="in"/>
+      <point x="2.5" y="0.4"/>
+    </diylc.connectivity.TraceCut>
+    <diylc.connectivity.Jumper>
+      <name>J9</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="1.6" y="0.3"/>
+        <point x="1.6" y="2.1"/>
+        <point x="1.6" y="1.2"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="0000ff"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
       <name>J13</name>
       <alpha>127</alpha>
       <points>
-        <point x="1.5" y="0.3"/>
         <point x="1.5" y="0.5"/>
-        <point x="1.5" y="0.4"/>
+        <point x="1.5" y="1.5"/>
+        <point x="1.5" y="1.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="0000ff"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
+    <diylc.connectivity.TraceCut>
+      <name>Cut66</name>
+      <size value="0.08" unit="in"/>
+      <fillColor hex="ffffff"/>
+      <borderColor hex="ff0000"/>
+      <boardColor hex="f8ebb3"/>
+      <cutBetweenHoles>false</cutBetweenHoles>
+      <orientation>VERTICAL</orientation>
+      <holeSpacing value="0.1" unit="in"/>
+      <point x="0.8" y="1.6"/>
+    </diylc.connectivity.TraceCut>
+    <diylc.connectivity.TraceCut>
+      <name>Cut67</name>
+      <size value="0.08" unit="in"/>
+      <fillColor hex="ffffff"/>
+      <borderColor hex="ff0000"/>
+      <boardColor hex="f8ebb3"/>
+      <cutBetweenHoles>false</cutBetweenHoles>
+      <orientation>VERTICAL</orientation>
+      <holeSpacing value="0.1" unit="in"/>
+      <point x="0.8" y="1.7"/>
+    </diylc.connectivity.TraceCut>
+    <diylc.connectivity.Jumper>
+      <name>J12</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="2.9" y="0.3"/>
+        <point x="2.9" y="0.4"/>
+        <point x="2.9" y="0.35"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -1059,21 +1130,6 @@
       <bodyColor hex="808080"/>
       <shroudColor hex="595959"/>
     </diylc.electromechanical.PinHeader>
-    <diylc.shapes.Rectangle>
-      <name>DC/DC</name>
-      <alpha>98</alpha>
-      <value></value>
-      <controlPoints>
-        <point x="2.3" y="1.7"/>
-        <point x="1.9" y="2.5"/>
-      </controlPoints>
-      <firstPoint x="1.9" y="1.7"/>
-      <secondPoint x="2.3" y="2.5"/>
-      <color hex="6666ff"/>
-      <borderColor hex="000000"/>
-      <borderThickness value="0.2" unit="mm"/>
-      <edgeRadius value="0.0" unit="mm"/>
-    </diylc.shapes.Rectangle>
     <diylc.passive.Resistor>
       <name>R1</name>
       <alpha>64</alpha>
@@ -1316,11 +1372,11 @@
       <alpha>127</alpha>
       <orientation>DEFAULT</orientation>
       <controlPoints>
-        <point x="0.4" y="1.5"/>
-        <point x="0.4" y="1.6"/>
-        <point x="0.4" y="1.7"/>
-        <point x="0.4" y="1.8"/>
-        <point x="0.4" y="1.9000000000000004"/>
+        <point x="1.0" y="1.5"/>
+        <point x="1.0" y="1.6"/>
+        <point x="1.0" y="1.7"/>
+        <point x="1.0" y="1.8"/>
+        <point x="1.0" y="1.9000000000000004"/>
       </controlPoints>
       <rowCount>1</rowCount>
       <columnCount>5</columnCount>
@@ -1540,10 +1596,40 @@
       <colorCode>NONE</colorCode>
       <shape>Standard</shape>
     </diylc.passive.Resistor>
+    <diylc.electromechanical.PinHeader>
+      <name>PH7</name>
+      <alpha>127</alpha>
+      <orientation>_180</orientation>
+      <controlPoints>
+        <point x="2.7" y="0.5"/>
+        <point x="2.7" y="0.4"/>
+      </controlPoints>
+      <rowCount>1</rowCount>
+      <columnCount>2</columnCount>
+      <spacing value="0.1" unit="in"/>
+      <shrouded>true</shrouded>
+      <bodyColor hex="808080"/>
+      <shroudColor hex="595959"/>
+    </diylc.electromechanical.PinHeader>
+    <diylc.electromechanical.PinHeader>
+      <name>PH8</name>
+      <alpha>127</alpha>
+      <orientation>DEFAULT</orientation>
+      <controlPoints>
+        <point x="0.5" y="1.6"/>
+        <point x="0.5" y="1.7"/>
+      </controlPoints>
+      <rowCount>1</rowCount>
+      <columnCount>2</columnCount>
+      <spacing value="0.1" unit="in"/>
+      <shrouded>true</shrouded>
+      <bodyColor hex="808080"/>
+      <shroudColor hex="595959"/>
+    </diylc.electromechanical.PinHeader>
     <diylc.misc.Label>
       <name>LAB2</name>
       <point x="3.5" y="0.3"/>
-      <text>+3.3V</text>
+      <text>+6V</text>
       <font name="Dialog" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>LEFT</horizontalAlignment>
